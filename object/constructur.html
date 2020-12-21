@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Constructors</h1>
+    <p id="demo"></p>
+
+
+    <script>
+        function person(name,lastname,age){
+            this.name= name;
+            this.lastname= lastname;
+            this.age = age;
+        }
+
+        var mother = new person('surti','situmorang',65);
+
+        document.getElementById('demo').innerHTML=" Umur ibu saya adalah : " + mother.age;
+
+
+
+    </script>
+    
+</body>
+</html>
